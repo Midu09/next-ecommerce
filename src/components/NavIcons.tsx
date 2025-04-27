@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import React, { useState } from "react";
-import CartModel from "./CartModel";
+// import CartModel from "./CartModel";
 
 const NavIcons = () => {
   const router = useRouter();
@@ -53,7 +53,7 @@ const NavIcons = () => {
           1
         </div>
       </div>
-      {isCartOpen && <CartModel />}
+      {isCartOpen && <div>Xin chao anh em</div>}
     </div>
   );
 };
